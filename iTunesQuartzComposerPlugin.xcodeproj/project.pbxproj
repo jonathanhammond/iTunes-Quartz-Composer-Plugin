@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		834897D01705E6A7004123C8 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 834897CF1705E6A7004123C8 /* Helper.m */; };
+		834897D91705FCD2004123C8 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834897D81705FCD2004123C8 /* ScriptingBridge.framework */; };
+		83764EFC1705D77F00D0A903 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83764EFB1705D77F00D0A903 /* Cocoa.framework */; };
+		83764EFE1705D77F00D0A903 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83764EFD1705D77F00D0A903 /* Quartz.framework */; };
+		83764F0A1705D78000D0A903 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83764F081705D78000D0A903 /* InfoPlist.strings */; };
+		83764F0D1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 83764F0C1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		834897CC1705E1A4004123C8 /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		834897CE1705E6A7004123C8 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		834897CF1705E6A7004123C8 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		834897D81705FCD2004123C8 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		83607137170C57930017D344 /* Ports.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Ports.plist; sourceTree = "<group>"; };
+		83764EF81705D77F00D0A903 /* iTunesQuartzComposerPlugin.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesQuartzComposerPlugin.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		83764EFB1705D77F00D0A903 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		83764EFD1705D77F00D0A903 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		83764F001705D77F00D0A903 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		83764F011705D77F00D0A903 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		83764F021705D77F00D0A903 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83764F071705D78000D0A903 /* iTunesQuartzComposerPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesQuartzComposerPlugin-Info.plist"; sourceTree = "<group>"; };
+		83764F091705D78000D0A903 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83764F0B1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesQuartzComposerPluginPlugIn.h; sourceTree = "<group>"; };
+		83764F0C1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesQuartzComposerPluginPlugIn.m; sourceTree = "<group>"; };
+		83764F0E1705D78000D0A903 /* iTunesQuartzComposerPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTunesQuartzComposerPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		8381CCFA170B15E6001A9BD5 /* iTunes.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = iTunes.app; path = ../../../../../../../../Applications/iTunes.app; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83764EF41705D77F00D0A903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				834897D91705FCD2004123C8 /* ScriptingBridge.framework in Frameworks */,
+				83764EFC1705D77F00D0A903 /* Cocoa.framework in Frameworks */,
+				83764EFE1705D77F00D0A903 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83764EEC1705D77F00D0A903 = {
+			isa = PBXGroup;
+			children = (
+				834897D81705FCD2004123C8 /* ScriptingBridge.framework */,
+				83764F051705D77F00D0A903 /* iTunesQuartzComposerPlugin */,
+				83764EFA1705D77F00D0A903 /* Frameworks */,
+				83764EF91705D77F00D0A903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83764EF91705D77F00D0A903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83764EF81705D77F00D0A903 /* iTunesQuartzComposerPlugin.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83764EFA1705D77F00D0A903 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83764EFB1705D77F00D0A903 /* Cocoa.framework */,
+				83764EFD1705D77F00D0A903 /* Quartz.framework */,
+				83764EFF1705D77F00D0A903 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83764EFF1705D77F00D0A903 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83764F001705D77F00D0A903 /* AppKit.framework */,
+				83764F011705D77F00D0A903 /* CoreData.framework */,
+				83764F021705D77F00D0A903 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		83764F051705D77F00D0A903 /* iTunesQuartzComposerPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				83607137170C57930017D344 /* Ports.plist */,
+				8381CCFA170B15E6001A9BD5 /* iTunes.app */,
+				834897CC1705E1A4004123C8 /* iTunes.h */,
+				83764F0B1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.h */,
+				83764F0C1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.m */,
+				83764F061705D78000D0A903 /* Supporting Files */,
+				834897CE1705E6A7004123C8 /* Helper.h */,
+				834897CF1705E6A7004123C8 /* Helper.m */,
+			);
+			path = iTunesQuartzComposerPlugin;
+			sourceTree = "<group>";
+		};
+		83764F061705D78000D0A903 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83764F071705D78000D0A903 /* iTunesQuartzComposerPlugin-Info.plist */,
+				83764F081705D78000D0A903 /* InfoPlist.strings */,
+				83764F0E1705D78000D0A903 /* iTunesQuartzComposerPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83764EF71705D77F00D0A903 /* iTunesQuartzComposerPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83764F111705D78000D0A903 /* Build configuration list for PBXNativeTarget "iTunesQuartzComposerPlugin" */;
+			buildPhases = (
+				83764EF31705D77F00D0A903 /* Sources */,
+				83764EF41705D77F00D0A903 /* Frameworks */,
+				83764EF51705D77F00D0A903 /* Resources */,
+				83764EF61705D77F00D0A903 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesQuartzComposerPlugin;
+			productName = iTunesQuartzComposerPlugin;
+			productReference = 83764EF81705D77F00D0A903 /* iTunesQuartzComposerPlugin.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83764EEE1705D77F00D0A903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chris Birch";
+			};
+			buildConfigurationList = 83764EF11705D77F00D0A903 /* Build configuration list for PBXProject "iTunesQuartzComposerPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83764EEC1705D77F00D0A903;
+			productRefGroup = 83764EF91705D77F00D0A903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83764EF71705D77F00D0A903 /* iTunesQuartzComposerPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83764EF51705D77F00D0A903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83764F0A1705D78000D0A903 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83764EF61705D77F00D0A903 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/iTunesQuartzComposerPlugin.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/iTunesQuartzComposerPlugin.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83764EF31705D77F00D0A903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83764F0D1705D78000D0A903 /* iTunesQuartzComposerPluginPlugIn.m in Sources */,
+				834897D01705E6A7004123C8 /* Helper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83764F081705D78000D0A903 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83764F091705D78000D0A903 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83764F0F1705D78000D0A903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		83764F101705D78000D0A903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		83764F121705D78000D0A903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesQuartzComposerPlugin/iTunesQuartzComposerPlugin-Prefix.pch";
+				INFOPLIST_FILE = "iTunesQuartzComposerPlugin/iTunesQuartzComposerPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		83764F131705D78000D0A903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTunesQuartzComposerPlugin/iTunesQuartzComposerPlugin-Prefix.pch";
+				INFOPLIST_FILE = "iTunesQuartzComposerPlugin/iTunesQuartzComposerPlugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83764EF11705D77F00D0A903 /* Build configuration list for PBXProject "iTunesQuartzComposerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83764F0F1705D78000D0A903 /* Debug */,
+				83764F101705D78000D0A903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83764F111705D78000D0A903 /* Build configuration list for PBXNativeTarget "iTunesQuartzComposerPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83764F121705D78000D0A903 /* Debug */,
+				83764F131705D78000D0A903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83764EEE1705D77F00D0A903 /* Project object */;
+}
